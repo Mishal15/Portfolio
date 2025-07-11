@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio</title>
+    <link rel="stylesheet" href="protfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Mishal Gupta</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;" class="active">0. <br><span>Home</span></a>
+            <a href="#about" style="--i:2;" >1. <br><span>About</span></a>
+            <a href="#services" style="--i:3;" >2. <br><span>My Service</span></a>
+            <a href="#Skills" style="--i:4;;" >3. <br><span>Skill</span></a>
+            <a href="#project" style="--i:5" >4. <br><span>Project</span></a>
+            <a href="#Certificate" style="--i:6;" >5. <br><span>Certificate</span></a>
+            <a href="#contact" style="--i:7" >6. <br><span>Contact</span></a>
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello,It's me</h3>
+            <h1>Mishal Gupta</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I’m a web developer passionate about building responsive,
+                <br> user-friendly web applications using modern technologies.</p>
+            <div class="profile-pic"></div>
+            <div class="social-icons">
+                <a href="https://github.com/Mishal15" style="--i:7" ><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mishal-gupta-51255026a/" style="--i:8" ><i class="fab fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mishalgpt@gmail.com" target="_blank" style="--i:9"><i class="fab fa-envelope"></i></a>
+                <a href="https://twitter.com/yourprofile" style="--i:10" ><i class="fab fa-twitter"></i></a>
+          </div>
+          
+           <!-- Hidden checkbox to toggle text -->
+            <input type="checkbox" id="toggle-about" hidden>
+
+            <!-- Hidden text that toggles -->
+            <div class="more-text">
+            <p>
+                I’m always excited to take on new challenges and continuously learn.<br>
+                I specialize in frontend development, creating intuitive UI/UX<br>
+                with a strong focus on performance and accessibility.
+            </p>
+            </div>
+            <label for="toggle-about" class="btn-box">More about me</label>
+
+   
+        </div>
+       
+    </section>  
+       <div class="wave-container">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#081b29" fill-opacity="1"
+        d="M0,160 
+           C120,240,240,80,360,160 
+           S600,240,720,160 
+           S960,80,1080,160 
+           S1320,240,1440,160 
+           L1440,320 L0,320 Z" />
+    </svg>
+  </div>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/image1.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>I’m a passionate Frontend and Web Developer with a strong interest in crafting engaging, modern, and user-friendly websites. I believe that good web design is more than just visuals — it’s about creating intuitive, accessible, and seamless experiences for people. I specialize in HTML, CSS, JavaScript, and love working with modern tools like React, Tailwind CSS, and Bootstrap to build clean and responsive interfaces. 
+            I believe great design is as much about how it works as how it looks, and I enjoy working closely with teams to turn concepts into seamless digital experiences. When I’m not coding, you’ll probably find me exploring new design trends or experimenting with fresh tools to stay sharp and inspired.</p>
+            <input type="checkbox" id="toggle-about-more" hidden>
+
+            <div class="more-about-text">
+                <p>
+                I have completed my 10th from St. Mary’s School and my 12th from Higher Secondary School, Nagrota Gujroo. These formative years built the academic foundation and discipline that I carry into my work today. I’m always looking for new opportunities to learn, grow, and collaborate with people who share the same enthusiasm for meaningful digital experiences.
+                </p>
+            </div>
+
+            <!-- Button label -->
+            <label for="toggle-about-more" class="more-about-btn">More about me</label>
+
+         </div>
+
+    </section>
+    <div class="wave-container1">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="rgb(233, 212, 225)" fill-opacity="1"
+        d="M0,160 
+           C120,240,240,80,360,160 
+           S600,240,720,160 
+           S960,80,1080,160 
+           S1320,240,1440,160 
+           L1440,320 L0,320 Z" />
+    </svg>
+  </div>
+
+
+    <section class="services-section">
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-pencil-ruler" style="color: #0ef"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I design clean, modern interfaces that make websites visually appealing and easy to use. My focus is on creating smooth, user-friendly experiences that feel natural and intuitive.</p>
+                        <input type="checkbox" id="toggle-uiux" hidden>
+                            <div class="more-box">
+                                <p>
+                                I carefully consider user flow, interaction patterns, and accessibility to ensure every interface feels natural and effortless. From wireframes to polished prototypes, I turn ideas into intuitive digital designs.
+                                </p>
+                            </div>
+
+                            <!-- Learn More button -->
+                            <label for="toggle-uiux" class="read">Learn more</label>
+                    </div>
+                    <div>
+                        <i class="fas fa-code" style="color: #0ef"></i>
+                        <h2>Frontend developer</h2>
+                        <p>I build responsive, modern websites with clean code and smooth, user-friendly interfaces. My goal is to turn creative ideas into functional, engaging experiences across all devices.</p>
+                        <input type="checkbox" id="toggle-frontend" hidden>
+                            <div class="more-box1">
+                                <p>
+                                Collaboration is at the heart of my process. I enjoy working closely with clients, designers, and developers to bring visions to life efficiently and effectively — from concept to final deployment.
+                                </p>
+                            </div>
+
+                            <!-- Learn More button -->
+                            <label for="toggle-frontend" class="read">Learn more</label>
+                    </div>
+                    <div>
+                        <i class="fas fa-database" style="color: #0ef"></i>
+                        <h2>Backend Developer</h2>
+                        <p>I develop secure backend systems that ensure smooth website performance. From databases to APIs, I build reliable, scalable solutions that deliver data efficiently and seamlessly.</p>
+                       <input type="checkbox" id="toggle-backend" hidden>
+                            <div class="more-box2">
+                                <p>
+                                I believe a strong backend is the backbone of every great application, providing the stability and speed users expect. I focus on clean, well-structured code and optimized data flow to support modern, dynamic web experiences without compromise.
+                                </p>
+                            </div>
+
+                            <!-- Learn More button -->
+                            <label for="toggle-backend" class="read">Learn more</label>
+                    </div>
+                   
+                </div>
+            </div>
+
+        </div>
+    </section>
+     <div class="wave-container">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#081b29" fill-opacity="1"
+        d="M0,160 
+           C120,240,240,80,360,160 
+           S600,240,720,160 
+           S960,80,1080,160 
+           S1320,240,1440,160 
+           L1440,320 L0,320 Z" />
+    </svg>
+  </div>
+    <div class="skill">  
+        <h1 class="sub-title1">My <span>Skills</span></h1>
+
+        <section>
+            <div class="container1" id="Skills">
+                <h1 class="heading1">Technical Skills</h1>        
+                <div class="Technical-bars">
+                    <div class="bar"><i class="fab fa-html5" style="color: #c95d2e"></i>
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class="fab fa-css3-alt" style="color: #147bbc"></i>
+                        <div class="info">
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-line css">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class="fab fa-js" style="color: #b0bc1e"></i>
+                        <div class="info">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="progress-line JavaScript">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class="fas fa-code" style="color: #c32ec9"></i>
+                        <div class="info">
+                            <span>C programming</span>
+                        </div>
+                        <div class="progress-line C">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class="fab fa-react" style="color: #69bcbc"></i>
+                        <div class="info">
+                            <span>React</span>
+                        </div>
+                        <div class="progress-line React">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i class="fab fa-node" style="color: #147deb"></i>
+                        <div class="info">
+                            <span>nodejs</span>
+                        </div>
+                        <div class="progress-line nodejs">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">creativity</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">90%</div>
+                        <div class="text">Communication</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">75%</div>
+                        <div class="text">Problem Sloving</div>
+                    </div>
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+                </div>
+        </section>
+        <div class="wave-container1">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="rgb(233, 212, 225)" fill-opacity="1"
+        d="M0,160 
+           C120,240,240,80,360,160 
+           S600,240,720,160 
+           S960,80,1080,160 
+           S1320,240,1440,160 
+           L1440,320 L0,320 Z" />
+    </svg>
+  </div>
+
+    <section>
+  <div class="portfolio" id="project">
+    <div class="main-text">
+      <h2>&lt; Project /&gt;</h2>
+      <p>Explore my work and contributions</p>
+    </div>
+
+    <div class="filter-buttons">
+      <button class="active">All</button>
+    </div>
+
+    <div class="portfolio-current">
+      <div class="row">
+        <img src="img/image2.png" alt="Project 1">
+        <div class="project-title">Spotify UI Clone</div>
+        <div class="badges">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <img src="img/Screenshot 2025-07-10 121233.png" alt="Project 2" >
+        <div class="project-title">Scientific Calculator</div>
+        <div class="badges">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
+        </div>
+      </div>
+
+      <div class="row">
+        <img src="img/images.jpg" alt="Project 3">
+        <div class="project-title">Weather App</div>
+        <div class="badges">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JS</span>
+          <span>AJAX</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+     <div class="wave-container">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#081b29" fill-opacity="1"
+        d="M0,160 
+           C120,240,240,80,360,160 
+           S600,240,720,160 
+           S960,80,1080,160 
+           S1320,240,1440,160 
+           L1440,320 L0,320 Z" />
+    </svg>
+  </div>
+
+
+    <section>
+        <div class="portfolio1" id="Certificate">
+            <div class="main-text1" id="Certificate">
+                <h2>Latest <span>Certificate</span></h2>
+
+                <div class="portfolio-current1">
+                    <div class="row1">
+                        <img src="img/Screenshot 2025-07-10 131747.png">
+                        <a href="#"><i class="bx bxl-link external" style="color: aliceblue;"></i></a>
+                    </div>
+                    <div class="row1">
+                        <img src="img/Screenshot 2025-07-10 131302.png">
+                        <a href="#"><i class="bx bxl-link external" style="color: aliceblue;"></i></a>
+                    </div>
+                    <div class="row1">
+                        <img src="img/Screenshot 2025-07-10 131523.png">
+                        <a href="#"><i class="bx bxl-link external" style="color: aliceblue;"></i></a>
+                    </div>
+                     <div class="row1">
+                        <img src="img/Screenshot 2025-07-10 131655.png">
+                        <a href="#"><i class="bx bxl-link external" style="color: aliceblue;"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+     </section>
+        <div class="wave-container1">
+    <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+      <path fill="rgb(233, 212, 225)" fill-opacity="1"
+        d="M0,160 
+           C120,240,240,80,360,160 
+           S600,240,720,160 
+           S960,80,1080,160 
+           S1320,240,1440,160 
+           L1440,320 L0,320 Z" />
+    </svg>
+  </div>
+
+     <section class="contact-section" id="contact">
+    <div class="contact-container">
+      <div class="contact-left">
+        <h1>Contact <span>Me</span></h1>
+        <h3>Let's work Together</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem in sed, aliquid molestias perspiciatis expedita.</p>
+        <div class="contact-info">
+          <p><i class="fas fa-envelope"></i> contact@gmail.com</p>
+        </div>
+
+      </div>
+      <div class="contact-icons">
+            <a href= "https://www.linkedin.com/in/mishal-gupta-51255026a/"   target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Mishal15" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mishalgpt@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+         </div>
+
+      <div class="contact-right">
+        <form>
+          <input type="text" placeholder="Enter Your Name" required>
+          <input type="email" placeholder="Enter Your Email" required>
+          <input type="text" placeholder="Enter Your Subject" required>
+           <textarea placeholder="Enter Your Message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+    <a href="#" class = "top"><i class="bx bx-up-arrow-alt"></i></a>
+    <script src="protfolio.js"></script>
+</body>
+</html>
